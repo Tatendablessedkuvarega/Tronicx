@@ -1,0 +1,79 @@
+
+
+/*The Login Page styling starts here!!!!*/
+.loggybox{
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    background: #000;
+    border-radius: 25px;
+}
+
+/*the paragraphs styling*/
+.tiktok p{
+    color: #7E3F8F;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/*the paragraphs styling*/
+
+body{
+    color: #7E3F8F;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*the link styling*/
+.tiktok a{
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: bold;
+}
+/*the link styling*/
+
+/*my heading styling*/
+.loggybox h2{
+    text-decoration: underline;
+    text-align: center;
+    margin: 30px;
+}
+/*my heading styling*/
+
+/*my input tags edit starts here*/
+.tiktok input[type="text"], input[type="password"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom:.2rem dotted #7E3F8F;
+    color: #fff;
+    font-weight: 700;
+}
+
+.tiktok input[type="button"]{
+    height: 50px;
+    width: 150px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: linear-gradient(120deg, #7E3F8F, #000);
+    color: #fff;
+    border-radius: 25px;
+    justify-content: center;
+}
+/*my input tags edit ends here*/
+
+/*my footer edit starts here*/
+.tiktok footer{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+/*my footer edit ends here*/
+
+/*The Login Page styling ends here!!!!*/
+

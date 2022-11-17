@@ -1,0 +1,80 @@
+body {
+    background: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#Clock {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: 'Obitron', sans-serif;
+    letter-spacing: 7px;
+    border: 1px solid #fff;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #6930c3;
+}
+
+.fixed-btn {
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+    background: #000;
+    width: 180px;
+    height: 60px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #6930c3;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.fixed-btn input[type="button"]{
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: 900;
+    color: #fff;
+    background: transparent;
+    text-align:center;
+    font-size: large;
+}
+
+.fixed-btn:active {
+    box-shadow: 0 0;
+}
+
+.lunch{
+    position: fixed;
+    bottom: 10%;
+    left: 3%;
+    background: #000;
+    width: 180px;
+    height: 60px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px #6930c3;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.lunch button{
+    text-transform: uppercase;
+    font-family: arial;
+    font-weight: 900;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    font-size: large;
+}
+
+.lunch:active {
+    box-shadow: 0 0;
+}
